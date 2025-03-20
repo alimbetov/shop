@@ -1,19 +1,16 @@
 package kz.shop.book.dto.userInfo;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Setter
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class LanguageDTO {
     private  String code; // Код языка (ISO)
-    private  String name;
-
+    private String name;
 
 
 }
