@@ -11,6 +11,7 @@ import lombok.*;
 public class AddressCoordinatesDTO {
     private Long id;
 
+    private  String title;
     private Double latitude;
     private Double longitude;
 
