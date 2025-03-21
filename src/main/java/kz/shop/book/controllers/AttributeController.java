@@ -69,6 +69,10 @@ public class AttributeController {
         return ResponseEntity.ok(attributeService.findByType(type));
     }
 
+
+
+
+
     // 🔹 Получить все значения атрибута
     @GetMapping("/values")
     public ResponseEntity<List<AttributeValueDTO>> getAllAttributeValues() {
